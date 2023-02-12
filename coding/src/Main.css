@@ -1,0 +1,116 @@
+.coutdown-box{
+    display: flex;
+    justify-content: center;
+}
+
+.coutdown{
+    font-size: 39px;
+    color: green;
+    font-weight: 400;
+    margin-top: 30px;
+}
+
+.input-box{
+    display: flex;
+    justify-content: center;
+}
+
+.input{
+    width: 90%;
+    margin-top: 20px;
+    height: 30px;
+}
+
+.btn-box{
+    display: flex;
+    justify-content: center;
+}
+
+
+.btn{
+    position: relative;
+    top: 20px;
+    height: 30px;
+    width: 90%;
+    font-size: 20px;
+    border: none;
+    background-color: #7B68EE;
+    color: white;
+    letter-spacing: 2px;    
+    cursor: pointer;
+}
+
+.card-content{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    right: 40px;
+}
+
+.content{
+    border-radius: 20px;
+    margin-top: 150px;
+    background-color: aquamarine;
+    width: 1200px;   
+}
+.words-per-min{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    color: red;
+}
+
+.words{
+   display: flex;
+   font-size: 40px;
+   justify-content: center;
+   position: relative;
+   left: 163px; 
+   bottom: 51px;
+   color: green;
+}
+
+.accuracy-box{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+.accuracy{
+    color: red;
+}
+
+.percentage{
+    color: green;
+    margin-left: 15px;
+    font-size: 40px;
+    position: relative;
+    bottom: 5px;
+}
+
+
+.next-word-box{
+    display: flex;
+    justify-content: center; 
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #00FF7F;
+    align-items: center;
+    font-size: 40px;
+    position: relative;
+    left: 640px;
+    top: 30px;
+    margin: 20px 0 30px 0;
+    
+}
+
+.next-word{
+    color: white;
+}
+.sucessChar{
+    background-color: #00FF7F;
+}
+.failChar{
+    background-color: red;
+}
